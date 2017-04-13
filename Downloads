@@ -1,0 +1,15 @@
+function setup() {
+createCanvas (windowWidth,windowHeight);
+}
+
+function draw() {
+  
+  
+var Y = random(0,windowWidth);
+var X = random(0,windowHight);
+
+ellipse(X,X,Y,50);
+
+
+
+}
